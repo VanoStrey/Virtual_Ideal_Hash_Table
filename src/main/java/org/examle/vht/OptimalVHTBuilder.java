@@ -12,7 +12,7 @@ public class OptimalVHTBuilder {
     private static final Logger log = VHTLogger.LOGGER;
     private static final int THREADS = 4;
     private static final long FLUSH_INTERVAL_MS = 2000;
-    private static final long SAVE_COUNTS_EVERY = 200_000;
+    private static final long SAVE_COUNTS_EVERY = 100_000; // раз в 10 млн
     private static final String CHECKPOINT_FILE = "build_checkpoint.dat";
     private static final String SLOT_COUNTS_FILE = "slot_counts.bin";
 
